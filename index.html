@@ -5,15 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .mainiukas {
+            width: 50%;
+            margin-left: 25%;
+            margin-top: 10%;
+            display: inline-block;
+        }
+        .divas {
+            width: 50%;
+            display: block;
+            float: left;
+        }
+        .hash1 {
+            font-size: 80px;
+            font-family: monospace;
+            color: blue;
+            margin-bottom: 0px;
+        }
+        .parag {
+            font-size: 50px;
+            font-family: monospace;
+            color: black;
+            margin-top: 0px;
+        }
+        .linkas {
+            border: 2px lightblue;
+            border-style: solid;
+            border-radius: 50px;
+            padding-inline: 25px;
+            padding-block: 10px;
+            text-decoration: none;
+            font-size: 30px;
+            color: lightblue;
+            float: left;
+        }
+        .img {
+            float: left;
+            margin-left: 0px;
+            margin-top: 50px;
+        }
+    </style>
 </head>
 <body>
-    <main style=" width: 50%; margin-left: 25%; margin-top: 10%; display: inline-block;">
-        <div style="width: 50%; display:block; float: left;">
-            <h1 style="font-size:80px; font-family: monospace; color: blue; margin-bottom: 0px;">404</h1>
-            <p style="font-size: 50px; font-family: monospace;color: black; margin-top: 0px;">PAGE NO FOUND</p>
-            <a href="#" style="border: 2px lightblue;border-style: solid; border-radius: 50px; padding-inline: 25px; padding-block: 10px; text-decoration: none; font-size: 30px; color: lightblue; float: left;">Go to home</a>
+    <main class="mainiukas">
+        <div class="divas"">
+            <h1 class="hash1">404</h1>
+            <p class="parag"">PAGE NO FOUND</p>
+            <a href="#" class="linkas">Go to home</a>
         </div>
-            <img src="ufo.png" alt="nieko" style="float: left; margin-left: 50px; margin-top: 50px;">
+            <img class="img" src="ufo.png" alt="nieko">
     </main>
 </body>
 </html>
